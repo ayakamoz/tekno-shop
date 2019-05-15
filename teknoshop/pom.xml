@@ -18,6 +18,13 @@
 
 	<dependencies>
 
+		<!-- Link backend project -->
+		<dependency>
+			<groupId>net.ahmed</groupId>
+			<artifactId>teknoshopbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
 		<!-- Junit -->
 		<dependency>
 			<groupId>junit</groupId>
@@ -40,8 +47,8 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		
-				<!-- JSTL -->
+
+		<!-- JSTL -->
 		<dependency>
 			<groupId>jstl</groupId>
 			<artifactId>jstl</artifactId>
